@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    align-items: center;
+}
+
+.gallery-cell {
+    width: 45vw;
+    height: 45vh;
+    margin-right: 10px;
+    background: #8C8;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.gallery-cell .content {
+    width: 80%;
+    height: 70%;
+    min-width: 80px;
+    min-height: 60px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.gallery-cell .content img {
+    width: 100%;
+    height: 100%;
+}
